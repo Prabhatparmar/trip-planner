@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Home-navbar {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: red;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1000;
+}
+
+.section {
+  padding: 60px 40px 30px; 
+}
+
+.section h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #023e8a;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 5px;
+}
+
+.card-group {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+button
+{
+  background-color: greenyellow;
+}
+button:hover{
+  transition: 0.3s ease;
+  color: red;
+}
